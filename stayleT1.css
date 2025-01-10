@@ -1,0 +1,171 @@
+General Styles
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #e9e4e4;
+   background-attachment: fixed;
+}
+
+header, footer {
+    background-color: #00a9f4;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+h1, h2, h3 {
+    margin: 1rem 0;
+}
+
+h1 {
+    color: #0056b3;
+}
+
+h2 {
+    color: #007acc;
+}
+
+h3 {
+    color: #005b9a;
+}
+
+/* Navbar Styles */
+#navbar {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: #007acc;
+}
+
+#navbar li {
+    margin: 0 1.5rem;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s;
+}
+
+#navbar a:hover {
+    color: #ffcc00;
+}
+
+
+/* Table Styles */
+table {
+    width: 80%;
+    margin: 2rem auto;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    padding: 1rem;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #007acc;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Buttons */
+button {
+    background-color: #00a9f4;
+    color: white;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #007acc;
+}
+
+/* Form Styles */
+.container {
+    width: 60%;
+    margin: 2rem auto;
+    background-color: white;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 1rem;
+    display: block;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+form button {
+    margin-top: 1rem;
+    width: 100%;
+    font-size: 1.2rem;
+}
+
+/* Image */
+img {
+    display: block;
+    margin: 1rem auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(162, 111, 111, 0.2);
+}
+.hp .img  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+  }
+  
+.bb .mid-hp {
+    width: 50%;
+    border-radius: 1rem;
+    transition: transform 0.3s ease-in-out;
+  }
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: white;
+    font-size: 0.9rem;
+}
+
+footer sub {
+    color: #00a9f4;
+}
+
+/* Marquee */
+marquee {
+    padding: 0.5rem;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
